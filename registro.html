@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<title>Registro de usuario</title>
+</head>
+
+<body>
+<div class="form-style-10">
+  <h1>Registrate!</h1>
+  <form method="post" action="guardar.php" target="_parent">
+    <div class="section">Datos personales</div>
+    <div class="inner-wrap">
+      <label>Nombre completo
+        <input type="text" name="nombreCompleto" required/>
+      </label>
+      <label>Email
+        <input type="email"  name="email" required/>
+      </label>
+      <label>Dirección
+        <textarea name="direccion" required></textarea>
+      </label>
+      <label>Teléfono
+        <input type="number" name="tel" required/>
+      </label>
+    </div>
+    <div class="section">Contraseñas</div>
+    <div class="inner-wrap">
+      <label>Contraseña
+        <input type="password" name="contras" id="contras" required/>
+      </label>
+      <label>Repita la contraseña
+        <input type="password" name="contrasdos" id="contrasdos" required/>
+      </label>
+    </div>
+    <div class="button-section" style="text-align: center">
+      <input type="submit" name="Guardar" value="Guardar" />
+      <br>
+      <br>
+    </div>
+  </form>
+  <div class="button-section" style="text-align: center"> <a href="index.html" target="_parent">
+    <input name="Iniciar Sesión" type="submit"  formtarget="_parent" value="Iniciar Sesión" />
+    </a> </div>
+</div>
+</body>
+</html>

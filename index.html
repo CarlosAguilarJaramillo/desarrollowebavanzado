@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<title>Inicio de Sesión</title>
+</head>
+
+<body background="back.png">
+<div class="form-style-10">
+  <h1>Inicio de sesión</h1>
+  <form method="post" action="datosUsuario.php" target="_parent">
+    <div class="section"></div>
+    <div class="inner-wrap">
+      <label>Email
+        <input type="email"  name="email" placeholder="Ingresa tu correo electrónico" required/>
+      </label>
+      <label>Contraseña
+        <input type="password" name="contras" id="contras" placeholder="Ingresa tu contraseña" required/>
+      </label>
+    </div>
+    <div class="button-section" style="text-align: center">
+      <input type="submit" name="Iniciar sesión" value="Iniciar Sesión" />
+      <br>
+      <br>
+    </div>
+  </form>
+  <div class="button-section" style="text-align: center"> <a href="index.html" target="_parent">
+    <input name="Registrar nuevo usuario" type="submit"  formtarget="_parent" value="Registrar nuevo usuario" />
+    </a> </div>
+</div>
+</body>
+</html>
