@@ -62,7 +62,8 @@ if ( $contras != $contrasdos ) {
 	fwrite( $archivo, "|" );
 	fwrite( $archivo, $tel );
 	fwrite( $archivo, "|" );
-	fwrite( $archivo, sha1( trim( $contrasdos ) ); fwrite( $archivo, "\n" );
+	fwrite( $archivo, sha1(trim($contrasdos ))); 
+	fwrite( $archivo, "\n" );
 
 		fclose( $archivo );
 		//Muestra una alerta donde nos indica que el usuario se ha regisrado de forma correcta

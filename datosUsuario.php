@@ -28,6 +28,10 @@ $datos = explode('|', $fila);
 		
 	}
 }
+	
+	if (empty($usuarios)){
+		echo "<script type='text/javascript'>alert('Datos incorrectos');window.location.href = 'index.html';</script>";
+	}
 
 	echo "<div class='form-style-10'>";
 	echo "<h1>Datos del usuario</h1>";
